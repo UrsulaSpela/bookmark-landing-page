@@ -9,27 +9,66 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+h1, h2, h3{
+    color: hsl(229, 31%, 21%);
+}
+p{
+    color: hsl(229, 8%, 60%);
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
 header{
     padding: 45px 160px;
 }
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 120px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:hsl(229, 8%, 60%);
+    margin: 0 20px;
+    font-size: 14px;
 }
 #header-content{
     display: flex;
     justify-content: space-between;
 }
+#header-content > img{
+    position: relative;
+    left: 50px;
+}
+h1{
+    padding-top: 75px;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+header p{
+    margin-bottom: 30px;
+}
+.light-btn{
+    background:hsl(229, 8%, 60%);
+    color:hsl(229, 31%, 21%);
+    margin-left: 15px;
+}
 button{
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: white;
+    font-weight: 500;
+    font-size: 14px;
     background: hsl(231, 69%, 60%);
     border: none;
     border-radius: 5px;
 }
 main{
     padding: 45px 160px;
+}
+section > h2{
+    text-align: center;
 }
 footer{
     padding: 45px 160px;

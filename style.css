@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 body{
     max-width: 1440px;
@@ -18,6 +20,13 @@ nav{
 #header-content{
     display: flex;
     justify-content: space-between;
+}
+button{
+    padding: 10px 20px;
+    color: white;
+    background: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 5px;
 }
 main{
     padding: 45px 160px;

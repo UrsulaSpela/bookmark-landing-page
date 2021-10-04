@@ -77,11 +77,17 @@ section > h2, section > p{
 #option-titles{
     display: flex;
     justify-content: center;
+}
+#option-titles h3{
+    padding: 30px 40px;
+    font-weight: 400;
     border-bottom: .5px solid hsl(229, 8%, 60%);
     margin-bottom: 70px;
 }
-#option-titles h3{
-    margin: 0 15px;
+#option-titles h3:hover{
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+    border-bottom: 4px solid hsl(0, 94%, 66%);
 }
 .option-tab{
     display: flex;

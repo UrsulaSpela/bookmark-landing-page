@@ -12,6 +12,10 @@ body{
 h1, h2, h3{
     color: hsl(229, 31%, 21%);
 }
+h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
 p{
     color: hsl(229, 8%, 60%);
     font-size: 1.2em;
@@ -67,8 +71,26 @@ button{
 main{
     padding: 45px 160px;
 }
-section > h2{
+section > h2, section > p{
     text-align: center;
+}
+#option-titles{
+    display: flex;
+    justify-content: center;
+    border-bottom: .5px solid hsl(229, 8%, 60%);
+    margin-bottom: 70px;
+}
+#option-titles h3{
+    margin: 0 15px;
+}
+.option-tab{
+    display: flex;
+}
+.option-tab > div{
+    padding: 65px 0 0 120px;
+}
+#option-2, #option-3{
+    display: none;
 }
 footer{
     padding: 45px 160px;

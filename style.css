@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    padding: 45px 160px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+#header-content{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    padding: 45px 160px;
+}
+footer{
+    padding: 45px 160px;
+}

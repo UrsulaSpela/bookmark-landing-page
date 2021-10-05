@@ -165,7 +165,7 @@ hr{
 #join-us{
     background:hsl(231, 69%, 60%);
     color: white;
-    padding: 65px;
+    padding: 65px 0;
     text-align: center;
 }
 #join-us h5{
@@ -185,4 +185,15 @@ hr{
 }
 footer{
     padding: 45px 160px;
+    background:hsl(229, 31%, 21%);
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+footer a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
 }

@@ -136,6 +136,8 @@ hr{
 #faqs{
     max-width: 60%;
     margin: 0 auto;
+    text-align: center;
+    padding-bottom: 140px;
 }
 #faqs hr{
     border: .5px solid hsl(229, 8%, 60%);
@@ -149,12 +151,19 @@ hr{
     padding: 10px;
     background: url(images/icon-arrow.svg) no-repeat;
     background-position: 98% 40%;
+    text-align: left;
 }
 #faqs p{
     padding-bottom: 10px;
 }
 .answer{
     display: none;
+}
+#join-us{
+    background:hsl(231, 69%, 60%);
+    color: white;
+    padding: 65px;
+    text-align: center;
 }
 footer{
     padding: 45px 160px;

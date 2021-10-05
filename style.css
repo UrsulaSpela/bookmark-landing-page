@@ -137,6 +137,22 @@ hr{
     max-width: 60%;
     margin: 0 auto;
 }
+#faqs hr{
+    border: .5px solid hsl(229, 8%, 60%);
+    margin: 10px 0;
+}
+#faqs h4{
+    font-size: 1.2em;
+    color:hsl(229, 31%, 21%);
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 10px;
+    background: url(images/icon-arrow.svg) no-repeat;
+    background-position: 98% 40%;
+}
+#faqs p{
+    padding-bottom: 10px;
+}
 .answer{
     display: none;
 }

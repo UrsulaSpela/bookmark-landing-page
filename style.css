@@ -46,7 +46,7 @@ nav a{
     position: relative;
     left: 50px;
 }
-.blue{
+.header-blue{
     width: 50%;
     height: 80%;
     position: absolute;
@@ -90,6 +90,19 @@ section > h2, section > p{
 }
 #features{
     margin-bottom: 200px;
+}
+#options{
+    position: relative;
+}
+.options-blue{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top: 150px;
+    right: 550px;
+    background:hsl(231, 69%, 60%);
+    z-index: -1;
+    border-radius: 0 0 150px 0;
 }
 #option-titles{
     display: flex;

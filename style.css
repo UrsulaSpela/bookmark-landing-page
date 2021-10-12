@@ -40,10 +40,21 @@ nav a{
 #header-content{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 #header-content > img{
     position: relative;
     left: 50px;
+}
+.blue{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    background:hsl(231, 69%, 60%);
+    top: 100px;
+    left: 50%;
+    z-index: -1;
+    border-radius: 0 0 0 150px;
 }
 h1{
     padding-top: 75px;
@@ -161,6 +172,8 @@ hr{
 }
 .answer{
     display: none;
+    text-align: left;
+    padding-left: 10px;
 }
 #join-us{
     background:hsl(231, 69%, 60%);

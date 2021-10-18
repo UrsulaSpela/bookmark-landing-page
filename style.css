@@ -289,4 +289,25 @@ footer a{
         position: relative;
         right: 50px;
     }
+    #extesion-options{
+        flex-direction:column;
+    }
+    #faqs{
+        max-width: 325px;
+    }
+    #faqs h4{
+        font-size: 14px;
+    }
+    #contact-btn{
+        width: 300px;
+        margin-top: 10px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 25px;
+        align-items: center;
+    }
+    footer a{
+        margin: 20px;
+    }
 }
